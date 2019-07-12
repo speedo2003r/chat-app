@@ -32,4 +32,8 @@
     .ContactList{
         overflow-y: scroll;
     }
+    .ContactList li{
+        border-bottom: 1px solid #333;
+        cursor: pointer;
+    }
 </style>

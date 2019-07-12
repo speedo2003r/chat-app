@@ -6531,7 +6531,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.ContactList[data-v-0ee8d67a]{\n    overflow-y: scroll;\n}\n", ""]);
+exports.push([module.i, "\n.ContactList[data-v-0ee8d67a]{\n    overflow-y: scroll;\n}\n.ContactList li[data-v-0ee8d67a]{\n    border-bottom: 1px solid #333;\n    cursor: pointer;\n}\n", ""]);
 
 // exports
 
