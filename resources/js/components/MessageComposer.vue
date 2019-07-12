@@ -12,7 +12,8 @@
             }
         },
        methods:{
-           send(){
+           send(e){
+               e.preventDefault();
                if (this.message == ''){
                    return;
                }
@@ -24,5 +25,9 @@
 </script>
 
 <style scoped>
-
+    textarea{
+        width: 90%;
+        margin: 10px;
+        resize: none;
+    }
 </style>

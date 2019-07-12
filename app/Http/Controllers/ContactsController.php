@@ -16,4 +16,12 @@ class ContactsController extends Controller
         $messages = Message::where('from',$id)->orWhere('to',$id)->get();
         return response()->json($messages);
     }
+    public function send(Request $request){
+         $messages = Message::create([
+             'from'=>auth()->user()->id,
+             'to'=>$request->contact_id,
+             'text'=>$request->text,
+         ]);
+         return response()->json($messages);
+    }
 }

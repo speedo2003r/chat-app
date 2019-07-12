@@ -29,5 +29,7 @@
 </script>
 
 <style scoped>
-
+    .ContactList{
+        overflow-y: scroll;
+    }
 </style>
