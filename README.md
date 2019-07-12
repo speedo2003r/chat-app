@@ -16,4 +16,4 @@ npm run watch
 
 login and then enter to chatroom 
 <br>
-enjoyed ^_^
+enjoy ^_^
