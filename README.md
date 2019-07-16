@@ -9,7 +9,9 @@ npm install
 <br>
 php artisan make:auth
 <br>
-php artisan make:migrate --seed
+php artisan migrate --seed
+<br>
+php artisan key:generate
 <br>
 php artisan serve
 <br>
