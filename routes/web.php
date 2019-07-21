@@ -21,3 +21,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/contacts', 'ContactsController@get');
 Route::get('/conversation/{id}', 'ContactsController@conversation');
 Route::post('/conversation/send', 'ContactsController@send');
+
+Route::get('pagination','AjaxController@index')->name('index');
+Route::get('pagination/fetch_data', 'PaginationController@fetch_data');
