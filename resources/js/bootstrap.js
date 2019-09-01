@@ -49,9 +49,9 @@ import Echo from 'laravel-echo'
 window.Pusher = require('pusher-js');
 
 window.Echo = new Echo({
-
     broadcaster: 'pusher',
-    key: '70df4331ccf9bd8af05f',
-    cluster: 'eu',
-    forceTLS: true,
+    key: '123123123',
+    wsHost: window.location.hostname,
+    wsPort: 6001,
+    disableStats: true,
 });
