@@ -21,7 +21,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/contacts', 'ContactsController@get');
 Route::get('/conversation/{id}', 'ContactsController@conversation');
 Route::post('/conversation/send', 'ContactsController@send');
-Route::get('/chat', 'ContactsController@chat')
+Route::get('/chat', 'ContactsController@chat');
     
 Route::get('/paginate', 'PaginateController@index');
 Route::get('/paginate/messages', 'PaginateController@get');
