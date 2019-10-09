@@ -17,6 +17,11 @@ php artisan serve
 <br>
 npm run watch
 <br>
+php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="migrations"
+<br>
+php artisan migrate
+<br>
+php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="config"
 
 login and then enter to chatroom 
 <br>
