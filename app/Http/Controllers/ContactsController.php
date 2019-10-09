@@ -9,6 +9,9 @@ use Illuminate\Http\Request;
 
 class ContactsController extends Controller
 {
+    public function chat(){
+        return view('home');
+    }
     public function get(){
         $users = User::where('id','!=',auth()->user()->id)->get();
         return response()->json($users);
